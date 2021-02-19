@@ -1,0 +1,122 @@
+.DirectContent {
+  margin:26px 26px 0 18px;
+  padding-top: 20px;
+  position: relative;
+  width: 100%;
+}
+.content-container-box::before {
+  content: '';
+  float: left;
+  margin: -40px 0 0 35px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 14px solid rgba(28, 37, 50, 0.45);
+}
+.swiper-container {
+  display: flex;
+  margin-top: -20px;
+  margin-left: -5px !important;
+}
+.content-container-box {
+  padding-top: 26px;
+  /* margin-right: 12px; */
+  border-radius: 10px;
+  background: linear-gradient(97deg, rgba(28, 37, 50, 0.45) 0%, rgba(28, 37, 50, 0.7) 100%);
+}
+.swiper-slide {
+  width: 331px !important;
+  height: 315px !important;
+  flex-shrink: 0;
+  margin: 0 6px;
+  position: relative;
+  transition-property: transform;
+}
+.content-container {
+  height: 62px;
+  text-align: left;
+}
+.content-container::before {
+  content: '';
+}
+.attr-common {
+  float: left;
+  width: 28px;
+  margin:3px 5px 0 13px;
+  text-align: center;
+}
+.lesson-attr-container {
+  line-height: 36px;
+}
+.live {
+  width: 28px;
+  height: 15px;
+  background: url(../../img/live.png) center;
+  background-size: cover;
+}
+.trailer {
+  width: 28px;
+  height: 15px;
+  background: url(../../img/trailer.png) center;
+  background-size: cover;
+}
+.section-title {
+  width: 225px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #FFFFFF;
+  line-height: 22px;
+}
+.lesson-info-container {
+  font-size: 12px; 
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 17px;
+  font-weight: 300;
+}
+.video-time {
+  float: right;
+  margin-right: 20px;
+  font-size: 12px; 
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 17px;
+  font-weight: 300;
+  
+}
+.attr-play {
+  width: 26px;
+  height: 16px;
+  background: url(../../img/slices/tag_review@2x.png) center;
+  background-size: cover;
+}
+.studied {
+  width: 18px;
+  height: 18px;
+  background: url(../../img/slices/群详情私密icon@2x.png) center;
+  background-size: cover;
+}
+.lesson-info-container {
+  margin: 3px 0 0 46px;
+  line-height: 17px;
+}
+.teacher-name {
+  float: left;
+  max-width: 71px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.part-num ,.live-time::before,.play-num,.study-progress,.study-status{
+  float: left;
+}
+.part-num::before , .live-time::before ,.play-num::before ,.study-progress::before , .study-status::before{
+  content: '|';
+  margin:0 4px 0 4px;
+  display: inline-block;
+  height: 17px;
+  width: 2px;
+}
+.live-time {
+
+}

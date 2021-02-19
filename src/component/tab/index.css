@@ -1,0 +1,95 @@
+.Tab {
+  margin-left: 18px;
+}
+.tab-box {
+  height: 30px;
+  margin-top: 57px;
+  display: flex;
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 30px;
+}
+.tab-common {
+  font-size: 14px;
+  color: rgba(255,255,255,0.6);
+  cursor: pointer;
+}
+.high-light {
+  font-size: 22px;
+  font-weight: 500;
+  color: #FFFFFF;
+  border-bottom:  5px dotted;
+  border-image: url(../../img/slices/bg@2x.png) 10 round;
+  
+}
+.directory {
+  margin-right: 28px;
+}
+.evaluation {
+  margin-right: 25px;
+}
+span {
+  font-size: 12px;
+}
+.cover-container {
+  margin-top: 25px;
+}
+.cover {
+  width: 80px;
+  height: 80px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  background: url(../../img/cover.jpeg) center;
+  background-size: cover;
+  z-index: 3;
+  position: relative;
+}
+
+.laminated {
+  position: relative;
+  z-index: 2;
+  float: left;
+  margin: 5px 0 0 16px;
+  width: 70px;
+  height: 70px;
+  background: rgba(207, 212, 219, 0.2);
+  border-radius: 5px;
+}
+.lesson-title {
+  margin: 0 20px 0 101px;
+  text-align: left;
+}
+.cover-title {
+  margin-top: -77px;
+  font-size: 18px;
+  color: #ECEDF2;
+  line-height: 25px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+}
+.time {
+  margin-top: 5px;
+  font-size: 13px;
+  color: rgba(255,255,255,0.6);
+  line-height: 18px;
+}
+.time::after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  margin: -2px 0 0 5px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-left: 5px solid rgba(255,255,255,0.59);
+  border-bottom: 5px solid transparent;
+}
+.sticky {
+  position: fixed;
+  top: -22px;
+  z-index: 999;
+
+}

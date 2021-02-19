@@ -1,0 +1,103 @@
+.lesson-intro {
+  margin-left: 18px;
+}
+.title-container {
+  margin-top:-3px;
+}
+.tag {
+  float: left;
+  margin:26px 6px 0 0;
+  width: 31px;
+  height: 18px;
+}
+.title {
+  margin:0 47px 0 6px;
+  padding-top: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  word-break: break-all;
+  text-align: left;
+  color: #FFFFFF;
+}
+.score-play-num {
+  margin-top: 10px;
+  overflow: hidden;
+}
+.common {
+  font-size: 13px;
+  line-height: 16px;
+  color:rgba(255, 255, 255,0.6);
+}
+.score {
+  float: left;
+}
+.play {
+  float: left;
+
+}
+.dot {
+  width: 4px;
+  float: left;
+  margin: -4px 10px 0px 10px;
+  line-height: 18px;
+  font-size: 13px;
+  color: #FFFFFF;
+}
+
+.intro {
+  float: right;
+  margin-right: 23px;
+  cursor: pointer;
+}
+.intro::after {
+  content: '';
+  display: inline-block;
+  margin-left: 5px;
+  width: 5px;
+  height: 8px;
+  background: url(../../img/right.png) center;
+  background-size: cover;
+}
+.homework-container {
+  width: 237px;
+  margin-top: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px 4px 4px 5px;
+  line-height: 27px;
+}
+.homework {
+  float: left;
+  width: 34px;
+  margin: 4px 5px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 12px;
+  transform: scale(0.83);
+  font-weight: 500;
+  color: rgba(255, 255, 255,0.6);
+  line-height: 18px;
+}
+.answer {
+  float: right;
+  width: 76px;
+  background: rgba(216, 216, 216, 0.1);
+  line-height: 27px;
+  color: #FFFFFF;
+}
+.answer::after{
+  content: '';
+  display: inline-block;
+  margin-left: 5px;
+  width: 5px;
+  height: 8px;
+  background: url(../../img/right.png) center;
+  background-size: cover;
+}
+.home-title {
+  margin:0 82px 0 38px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

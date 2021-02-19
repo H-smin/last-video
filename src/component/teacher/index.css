@@ -1,0 +1,72 @@
+.Teacher {
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 18px;
+}
+.teacher-title {
+    font-size: 22px;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.teacher-info-container {
+    margin-top: 20px;
+
+}
+.teacher-head-part {
+    display: flex;
+}
+.teacher-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.nick-focus-container {
+    margin-left: 11px;
+}
+.teacher-nick {
+    font-size: 15px;
+    color: #FFFFFF;
+    line-height: 21px;
+} 
+.teacher-focus,.teacher-focus-btn {  
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 17px;
+}
+.teacher-focus-btn {
+    margin-left: auto;
+    margin-right: 18px;
+    width: 70px;
+    height: 24px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    line-height: 24px;
+}
+.teacher-intro {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.79);
+    line-height: 24px;
+}
+.belong-org {
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 321px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.12);
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 40px;
+    text-indent: 21pxpx;
+}
+.auth-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin: -3px 0 0 10px;
+    width: 13px;
+    height: 15px;
+}
